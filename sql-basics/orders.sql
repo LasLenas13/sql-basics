@@ -7,11 +7,11 @@ create table orders (
 );
 
 INSERT INTO orders(person_id, product_name, product_price, quantity)
-VALUES(86, "tacos", 9.99, 2),
-    (69, "nachos", 12.49, 1),
-    (187, "mole", 16.99, 6),
-    (222, "carne asada", 19.99, 4),
-    (1, "soup", 6.99, 3);
+VALUES  (86, "tacos", 9.99, 2),
+        (69, "nachos", 12.49, 1),
+        (187, "mole", 16.99, 6),
+        (222, "carne asada", 19.99, 4),
+        (1, "soup", 6.99, 3);
 
 SELECT * FROM orders
 
