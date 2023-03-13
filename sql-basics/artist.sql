@@ -4,11 +4,13 @@ VALUES ('Faithless', 276),
     ('AfroJack', 278);
 
 
-SELECT 10 FROM artist
-WHERE name LIKE '%zyx'
+SELECT * FROM artist
+ORDER BY name DESC
+LIMIT 10
 
-SELECT 5 FROM artist
-WHERE name LIKE 'a%'
+SELECT * FROM artist
+ORDER BY name
+LIMIT 5
 
 SELECT * FROM artist
 WHERE name LIKE 'Black%'

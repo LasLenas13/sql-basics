@@ -23,5 +23,5 @@ SET total = 24
 WHERE invoice_id = 5
 
 DELETE
-FROM invoice
-WHERE invoice_id = 1
+FROM invoice_line
+WHERE track_id = 2
